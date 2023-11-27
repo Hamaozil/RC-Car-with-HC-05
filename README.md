@@ -6,6 +6,8 @@ The RC Car is a typical vehicle with wheels that can be operated using either a 
  To enable wireless connectivity, the car must be equipped with a Bluetooth module or a similar device. 
 Personally, I use the HC-05 Bluetooth Module, which serves as both a master and a slave.
 
+![](https://europe1.discourse-cdn.com/arduino/original/4X/d/6/9/d69d3dc4e0921b30bcbad567e7dd2da76d60644a.jpeg)
+
 ## Hardware used :
 1. Arduino nano
 2. Motor driver `l298n`
