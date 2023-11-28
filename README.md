@@ -22,3 +22,7 @@ Personally, I use the HC-05 Bluetooth Module, which serves as both a master and 
 
 # Hardware Connections
 ![RC Car_bb](https://github.com/Hamaozil/RC-Car-with-HC-05/assets/115914652/12199c97-636c-42d0-9a73-93ad7f19808d)
+
+# Code:
+I have created 2 files: one for the movements function, and the other for the main program.
+- In the movements file, I have created a function called `MakeMove` with 2 parameters for the left and right motor speeds. If the speed is negative, it means the motor has to move backward, and i multiplied it by -1 to make it positive; otherwise, the motor will go forward normally.
