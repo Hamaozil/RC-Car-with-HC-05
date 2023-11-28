@@ -26,3 +26,4 @@ Personally, I use the HC-05 Bluetooth Module, which serves as both a master and 
 # Code:
 I have created 2 files: one for the movements function, and the other for the main program.
 - In the movements file, I have created a function called `MakeMove` with 2 parameters for the left and right motor speeds. If the speed is negative, it means the motor has to move backward, and i multiplied it by -1 to make it positive; otherwise, the motor will go forward normally.
+- In the main file, I have defined my pins and created an object from the `SoftwareSerial` library which I named Bluetooth and assigned Rx & Tx to it. In the setup, I defined the pins mode and initialized the baud rate for both Bluetooth and Serial monitor. In the loop, I checked for incoming signals from the Bluetooth app controller. If it receives anything, I checked it and made a move based on it, otherwise I kept it stopped.
